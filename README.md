@@ -39,7 +39,7 @@ This image includes EXPOSE 9092  (the advertised listener port), so standard con
 
 ## Environment variables
 Kafka recommended defaults are used if server.properties file is not provided. They can be overridden using the following environment variables.
-        - ZOOKEEPER_CONNECT: zookeeper:2181
-        - KAFKA_LISTENERS: PLAINTEXT://LOCALIP:9092
+- ZOOKEEPER_CONNECT: zookeeper:2181
+- KAFKA_LISTENERS: PLAINTEXT://LOCALIP:9092
 ## License
 View [license information](https://github.com/kthare10/kafka-docker/blob/master/2.11-2.0.1/LICENSE) for the software contained in this image.
