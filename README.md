@@ -18,7 +18,7 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 kthare10/kafka      2.11-2.0.1          acc2aeb03da8        14 seconds ago      206MB
 ...
 ```
-Example docker-compose.yml file included that builds from local repository and deploys single node cluster.
+Example docker-compose.yml file included that builds from local repository and deploys single node cluster. Remember to update KAFKA_LISTENERS in docker-compose.yml before executing the commands below.
 ```
 $ docker-compose build
   ...
