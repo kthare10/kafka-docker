@@ -19,4 +19,4 @@ services:
         - 9092:9092
     environment:
         ZOOKEEPER_CONNECT: zookeeper:2181
-        KAFKA_LISTENERS: PLAINTEXT://LOCALIP:9092 
+        KAFKA_LISTENERS: ${KAFKA_HOST:-PLAINTEXT://127.0.0.1:9092}
